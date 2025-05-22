@@ -153,5 +153,21 @@ header {
   .crew-image img{
     width: 70%;
     height: auto;
-    
+  }
+  .switch{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff35;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .switchActive .dot:hover{
+    background-color: #ffffff;
   }
